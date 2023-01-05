@@ -13,17 +13,16 @@ if($method === 'get') {
 
         foreach($data as $item) {
             $array['result'][] = [
-                'name' => $item['name'],
-                'status' => $item['status']
+                'id' => $item['id'],
+                'author' => $item['author'],
+                'name' => $item['name']
             ];
         }
     }
 
 
-
 }else {
     $array['error'] = 'Método inválido(apenas GET)';
 }
-
 
 require '../return.php';

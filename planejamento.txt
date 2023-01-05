@@ -1,0 +1,24 @@
+## TODO-API
+
+Funcionalidades
+- exibir as tarefas
+- inserir novas tarefas
+- visualizar UMA tarefa específica
+- editar
+- excluir
+
+
+Estrutura de dados
+-- id 
+-- author
+-- name
+-- status 
+
+Endpoints
+
+- (GET) /api/getall.php
+- (GET) /api/get.php (id)
+- (POST) /api/insert.php (author, name)
+- (PUT) /api/update.php (id, author, name, status) 
+- (DELETE) /api/delete.php (id)
+
